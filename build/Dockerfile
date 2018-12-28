@@ -1,6 +1,8 @@
 FROM hypriot/rpi-node:7.4
 MAINTAINER GICom <team@gicom.com.ar>
 
+RUN npm install
+
 # Install Node-RED Globally
 RUN npm install -g node-red
 
