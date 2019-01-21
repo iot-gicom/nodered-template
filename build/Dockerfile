@@ -1,4 +1,4 @@
-FROM hypriot/rpi-node:7.4
+FROM arm32v7/node
 MAINTAINER GICom <team@gicom.com.ar>
 
 RUN npm install
